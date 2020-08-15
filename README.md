@@ -16,3 +16,14 @@ would cause Iris to ask a series of quesions that would narrow down parameters f
 given, Iris would execute that analysis and return the results.
 
 The above would take serious development, but is achievable. 
+
+Packages considered for the above tasks:
+  1) SciPy
+  2) NumPy
+  3) Pandas
+  
+Packages for future tasks
+ 1) PySal - For Spatial Econometrics
+  
+Packages for NLP/TTS/STT development:
+ 1) CMU Sphinx / Pocket Sphinx
