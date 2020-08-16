@@ -27,3 +27,7 @@ Packages for future tasks
   
 Packages for NLP/TTS/STT development:
  1) CMU Sphinx / Pocket Sphinx
+
+Thoughts on Iris' eventual functionality:
+
+The ability to perform analyses of any kind is dependent on the ability to recognize a problem and react accordingly. Meta-Processing will have to be built in for Iris to recognize the difference between catergorical, numeric, and ordinal data, as well as the ability to clean gaps in the data 'she' is parsing accordingly. Without a sufficiently advanced neural network architecture that can do this, a series of tests and methods to handle the various situations Iris may come across will have to be coded. This, along with making notes about the data, and the issues therein, will lend credibility to the robustness of any analysis performed.
