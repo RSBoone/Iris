@@ -1,4 +1,8 @@
 # Iris
+
+### VERSION 0.1.0
+-----------------
+
 Personal 'Artificially Intelligent' Assistant, Iris (Intelligent InteRactive System)
 
 Developing Iris is a side project for me. Inspiried by Ironman's JARVIS, the goal is to develop an opensource AI that can communicate with people and do random tasks. 
