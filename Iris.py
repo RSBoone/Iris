@@ -15,7 +15,7 @@ response = ''  # Empty response string
 
 # Recording speech and returning a string.
 def record_audio():
-    # Recording thee audio
+    # Recording the audio
     r = sr.Recognizer()
 
     # Assigning mic to 'm'
