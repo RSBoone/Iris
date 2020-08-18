@@ -15,9 +15,9 @@ Long term goals will be concretized and divided into short term goals. After eac
 
 Current short term goals relating to each long term goal:
 
- 1)
-  a) Research use of the CMU Sphinx packages to create a training dataset for voice recognition
-  b) Research different Text to Speech packages
+1.
+  a. Research use of the CMU Sphinx packages to create a training dataset for voice recognition
+  b. Research different Text to Speech packages
  
  2)
   a) Add web-scraping functionality to retreive data from sources like FRED and the BLS. 
