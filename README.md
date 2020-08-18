@@ -2,36 +2,40 @@
 
 ### VERSION 0.1.0
 -----------------
+'Artificially Intelligent' Digital Assistant, Iris (Intelligent InteRactive System)
 
-Personal 'Artificially Intelligent' Assistant, Iris (Intelligent InteRactive System)
+Inspiried by Ironman's JARVIS, the goal of the Iris project is to develop an opensource general AI. 
 
-Developing Iris is a side project for me. Inspiried by Ironman's JARVIS, the goal is to develop an opensource AI that can communicate with people and do random tasks. 
+Long term goals for Iris' capabilities:
+ 1. To hear and speak without the use of third party software
+ 2. To discern what task is being requested and to take the necessary actions to perform that task
+ 3. To self analyze and improve performance
 
-Some goals I would like to achieve:
-1) Use CMUSphinx and pyTTSX3 to create a STT and TTS package that works offline so I don't have to rely on Google.
-  1.5) Implement machine learning to continuously improve that model/package.
-2) Add web-scraping functionality to retreive data from sources like FRED and the BLS.
-3) Add regression and other econometric analysis methods to Iris to perform computations on the above.
+Long term goals will be concretized and divided into short term goals. After each short term goal is completed, NLP code will be added for vocal command.
 
-More will be added over time. All of the goals above should be achievable by voice request alone. 
+Current short term goals relating to each long term goal:
 
-For example: "Iris, download the latest financial data from FRED and run an analysis on the labor force participation rate."
-would cause Iris to ask a series of quesions that would narrow down parameters for the analysis. Once those parameters are 
-given, Iris would execute that analysis and return the results.
+ 1)
+  a) Research use of the CMU Sphinx packages to create a training dataset for voice recognition
+  b) Research different Text to Speech packages
+ 
+ 2)
+  a) Add web-scraping functionality to retreive data from sources like FRED and the BLS. 
+  b) Add regression and other econometric analysis methods to Iris to perform computations on various market data.
+  c) Researching spatial econometric packages and developing one if their is no specialized package.
+ 
+ 3)
+  a) Researching different benchmarking software
+  b) Brainstorming and planning out self-evaluating/recoding meta-programming.
 
-The above would take serious development, but is achievable. 
+Packages considered for the above short term goals:
+  1) CMU Sphinx / Pocket Sphinx, PyTTSX3
+  2) SciPy, NumPy, Pandas, SKLearn, Matplotlib, PySal
+  3) TDB
 
-Packages considered for the above tasks:
-  1) SciPy
-  2) NumPy
-  3) Pandas
-  
-Packages for future tasks
- 1) PySal - For Spatial Econometrics
-  
-Packages for NLP/TTS/STT development:
- 1) CMU Sphinx / Pocket Sphinx
+-----------------
+Expectations for full development:
 
-Thoughts on Iris' eventual functionality:
+With a fully functioning Iris program, offering the request "Iris, download the latest financial data from FRED and run an analysis on the labor force participation rate." would cause Iris to scrape the lastest data from FRED on the labor force participation rate, and ask questions pertaining to the type of analysis to run (OLS, ARMA, GLM, etc.) Iris should be able to examine the data and determine the efficacy of the request. For instance, a time series analysis should be rejected if the data at hand is cross-sectional.
 
-The ability to perform analyses of any kind is dependent on the ability to recognize a problem and react accordingly. Meta-Processing will have to be built in for Iris to recognize the difference between catergorical, numeric, and ordinal data, as well as the ability to clean gaps in the data 'she' is parsing accordingly. Without a sufficiently advanced neural network architecture that can do this, a series of tests and methods to handle the various situations Iris may come across will have to be coded. This, along with making notes about the data, and the issues therein, will lend credibility to the robustness of any analysis performed.
+Over time, and by experience, Iris should be able to 'remember' types of analyses. If the same analysis or one of a similar type is requested, it should be run again without the need for parameters to be given. Iris should also announce an estimated time for completion based off of past analysis benchmarking.
