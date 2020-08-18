@@ -43,3 +43,6 @@ With a fully functioning Iris program, offering the request
 would cause Iris to scrape the lastest data from FRED on the labor force participation rate, and ask questions pertaining to the type of analysis to run (OLS, ARMA, GLM, etc.) Iris should be able to examine the data and determine the efficacy of the request. For instance, a time series analysis should be rejected if the data at hand is cross-sectional.
 
 Over time, and by experience, Iris should be able to 'remember' types of analyses. If the same analysis or one of a similar type is requested, it should be run again without the need for parameters to be given. Iris should also announce an estimated time for completion based off of past analysis benchmarking.
+
+Packages considered to help with the above full development:
+  - [tqdm](https://github.com/tqdm/tqdm) (progress bar manager)
