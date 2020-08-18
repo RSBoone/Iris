@@ -49,4 +49,4 @@ would cause Iris to scrape the lastest data from FRED on the labor force partici
 Over time, and by experience, Iris should be able to 'remember' types of analyses. If the same analysis or one of a similar type is requested, it should be run again without the need for parameters to be given. Iris should also announce an estimated time for completion based off of past analysis benchmarking.
 
 Packages considered to help with the above full development:
-  - [tqdm](https://github.com/tqdm/tqdm) (progress bar manager)
+  - [`tqdm`](https://github.com/tqdm/tqdm) (progress bar manager)
