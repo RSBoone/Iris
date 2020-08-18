@@ -1,6 +1,10 @@
 # Iris
 
-### VERSION 0.1.0
+## VERSION 0.1.0
+
+#### CONTRIBUTOR NOTES
+Make a pull request on a new branch, not on the master branch.
+
 -----------------
 'Artificially Intelligent' Digital Assistant, Iris (Intelligent InteRactive System)
 
