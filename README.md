@@ -15,27 +15,31 @@ Long term goals will be concretized and divided into short term goals. After eac
 
 Current short term goals relating to each long term goal:
 
-1.
-  a. Research use of the CMU Sphinx packages to create a training dataset for voice recognition
-  b. Research different Text to Speech packages
+1. NLP
+    1. Research use of the CMU Sphinx packages to create a training dataset for voice recognition
+    2. Research different Text to Speech packages
  
- 2)
-  a) Add web-scraping functionality to retreive data from sources like FRED and the BLS. 
-  b) Add regression and other econometric analysis methods to Iris to perform computations on various market data.
-  c) Researching spatial econometric packages and developing one if their is no specialized package.
+2. Analyses
+    1. Add web-scraping functionality to retreive data from sources like FRED and the BLS. 
+    2. Add regression and other econometric analysis methods to Iris to perform computations on various market data.
+    3. Researching spatial econometric packages and developing one if their is no specialized package.
  
- 3)
-  a) Researching different benchmarking software
-  b) Brainstorming and planning out self-evaluating/recoding meta-programming.
+3. Meta & management
+    1. Researching different benchmarking software
+    2. Brainstorming and planning out self-evaluating/recoding meta-programming.
 
 Packages considered for the above short term goals:
-  1) CMU Sphinx / Pocket Sphinx, PyTTSX3
-  2) SciPy, NumPy, Pandas, SKLearn, Matplotlib, PySal
-  3) TDB
+  - CMU Sphinx / Pocket Sphinx, PyTTSX3
+  - SciPy, NumPy, Pandas, SKLearn, Matplotlib, PySal
+  - TDB
 
 -----------------
 Expectations for full development:
 
-With a fully functioning Iris program, offering the request "Iris, download the latest financial data from FRED and run an analysis on the labor force participation rate." would cause Iris to scrape the lastest data from FRED on the labor force participation rate, and ask questions pertaining to the type of analysis to run (OLS, ARMA, GLM, etc.) Iris should be able to examine the data and determine the efficacy of the request. For instance, a time series analysis should be rejected if the data at hand is cross-sectional.
+With a fully functioning Iris program, offering the request
+
+> "Iris, download the latest financial data from FRED and run an analysis on the labor force participation rate."
+
+would cause Iris to scrape the lastest data from FRED on the labor force participation rate, and ask questions pertaining to the type of analysis to run (OLS, ARMA, GLM, etc.) Iris should be able to examine the data and determine the efficacy of the request. For instance, a time series analysis should be rejected if the data at hand is cross-sectional.
 
 Over time, and by experience, Iris should be able to 'remember' types of analyses. If the same analysis or one of a similar type is requested, it should be run again without the need for parameters to be given. Iris should also announce an estimated time for completion based off of past analysis benchmarking.
