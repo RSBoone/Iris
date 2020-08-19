@@ -24,7 +24,7 @@ Current short term goals relating to each long term goal:
     2. Research different Text to Speech packages
  
 2. Analyses
-    1. Add web-scraping functionality to retreive data from sources like FRED and the BLS. 
+    1. Add web-scraping / data retrieval functionality to retreive data from sources like FRED and the BLS. 
     2. Add regression and other econometric analysis methods to Iris to perform computations on various market data.
     3. Researching spatial econometric packages and developing one if their is no specialized package.
  
@@ -50,3 +50,4 @@ Over time, and by experience, Iris should be able to 'remember' types of analyse
 
 Packages considered to help with the above full development:
   - [`tqdm`](https://github.com/tqdm/tqdm) (progress bar manager)
+  - [`fredapi`] (https://github.com/mortada/fredapi) (FRED API Package)
