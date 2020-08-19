@@ -50,4 +50,4 @@ Over time, and by experience, Iris should be able to 'remember' types of analyse
 
 Packages considered to help with the above full development:
   - [`tqdm`](https://github.com/tqdm/tqdm) (progress bar manager)
-  - [`fredapi`] (https://github.com/mortada/fredapi) (FRED API Package)
+  - [`fredapi`](https://github.com/mortada/fredapi) (FRED API Package)
